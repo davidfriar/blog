@@ -8,6 +8,6 @@ script:
   - npm run build
 deploy:
   provider: surge
-  cleanup: false
+  skip_cleanup: true
   domain: davidfriar.surge.sh
   project: ./public/
