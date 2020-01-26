@@ -1,64 +1,62 @@
+// Colours from Solarized. See https://ethanschoonover.com/solarized/
 
-const solarized_base03 = `#002b36`
-const solarized_base02 = `#073642`
-const solarized_base01 = `#586e75`
-const solarized_base00 = `#657b83`
-const solarized_base0 = `#839496`
-const solarized_base1 = `#93a1a1`
-const solarized_base2 = `#eee8d5`
-const solarized_base3 = `#fdf6e3`
-const solarized_yellow = `#b58900`
-const solarized_orange = `#cb4b16`
-const solarized_red = `#dc322f`
-const solarized_magenta = `#d33682`
-const solarized_violet = `#6c71c4`
-const solarized_blue = `#268bd2`
-const solarized_cyan = `#2aa198`
-const solarized_green = `#859900`
-
+const base03 = `#002b36`
+const base02 = `#073642`
+const base01 = `#586e75`
+const base00 = `#657b83`
+const base0 = `#839496`
+const base1 = `#93a1a1`
+const base2 = `#eee8d5`
+const base3 = `#fdf6e3`
+const yellow = `#b58900`
+const orange = `#cb4b16`
+const red = `#dc322f`
+const magenta = `#d33682`
+const violet = `#6c71c4`
+const blue = `#268bd2`
+const cyan = `#2aa198`
+const green = `#859900`
 
 export default {
-  text: solarized_base00,
-  heading: solarized_base00,
-  background: solarized_base3,
-  primary: solarized_yellow,
-  secondary: solarized_cyan,
-  muted: solarized_base0,
-  highlight: solarized_base2,
+  text: base00,
+  heading: base00,
+  background: base3,
+  primary: yellow,
+  secondary: cyan,
+  muted: base0,
+  highlight: base2,
   prism: {
-    text: solarized_base0,
-    background: solarized_base03,
-    comment: solarized_base01,
-    string: solarized_green,
-    var: solarized_magenta,
-    number: solarized_orange,
-    constant: solarized_blue,
-    punctuation: solarized_base0,
-    className: solarized_yellow,
-    tag: solarized_cyan,
-    boolean: solarized_red,
-    property: solarized_magenta,
-    namespace: solarized_violet,
-    highlight: solarized_base02,
+    text: base0,
+    background: base03,
+    comment: base01,
+    string: green,
+    var: magenta,
+    number: orange,
+    constant: blue,
+    punctuation: base0,
+    className: yellow,
+    tag: cyan,
+    boolean: red,
+    property: magenta,
+    namespace: violet,
+    highlight: base02,
   },
   modes: {
     dark: {
-      text: solarized_base0,
-      heading: solarized_base0,
-      background: solarized_base03,
-      primary: solarized_yellow,
-      secondary: solarized_cyan,
-      muted: solarized_base00,
-      highlight: solarized_base02,
+      text: base0,
+      heading: base0,
+      background: base03,
+      primary: yellow,
+      secondary: cyan,
+      muted: base00,
+      highlight: base02,
       prism: {
-        text: solarized_base00,
-        background:solarized_base3,
-        comment: solarized_base1,
-        highlight: solarized_base2,
-        punctuation: solarized_base00,
-      }
+        text: base00,
+        background: base3,
+        comment: base1,
+        highlight: base2,
+        punctuation: base00,
+      },
     },
   },
 }
-
-
