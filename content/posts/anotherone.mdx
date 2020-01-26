@@ -1,0 +1,35 @@
+---
+title: Yet another post
+date: 2020-01-25
+excerpt: Just some more nonsense
+slug: anotherone
+tags: [  ]
+keywords: [  ]
+---
+
+Here is a new post with some code in it
+
+This is some javascript
+
+```js
+// I am a comment
+module.exports = {
+  plugins: [
+    "gatsby-theme-blog", // highlight-line
+    "gatsby-theme-notes"
+  ]
+};
+```
+
+And here is some JSX
+
+```jsx
+import React from "react";
+import { ThemeProvider } from "theme-ui";
+import theme from "./theme";
+
+// I am a comment
+export default props => (
+  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
+);
+```

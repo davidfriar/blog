@@ -1,15 +1,15 @@
 ---
 title: Hello World (example)
 date: 2019-04-15
-excerpt:
-slug:
+excerpt: This is just some random stuff
 ---
 
 Hello, world! This is a demo post for `gatsby-theme-blog`.
 
 Delete me, and get writing!
 
-```js:title=gatsby-config.js
+```js
+// I am a comment
 module.exports = {
   plugins: [
     "gatsby-theme-blog", // highlight-line
@@ -27,6 +27,7 @@ import React from "react";
 import { ThemeProvider } from "theme-ui";
 import theme from "./theme";
 
+// I am a comment
 export default props => (
   <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
 );
@@ -37,5 +38,15 @@ export default props => (
 for(int i=1;i<10;i++){
   System.out.println("Foo");
 }
+```
+
+```js
+// I am a comment
+module.exports = {
+  plugins: [
+    "gatsby-theme-blog", // highlight-line
+    "gatsby-theme-notes"
+  ]
+};
 ```
 
