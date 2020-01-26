@@ -5,5 +5,5 @@ import { toTheme } from "@theme-ui/typography"
 import typography from "typography-theme-fairy-gates"
 
 const theme = toTheme(typography)
-theme.fonts.monospace = 'Roboto Mono'
+theme.fonts.monospace = "Roboto Mono"
 export default theme
